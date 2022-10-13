@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinEssentialsDemo.BatterChargeStatusDemo">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+                <Label Text="Battery Charge Demo" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            </Frame>
+            <Label x:Name="txtBatteryLevel" Padding="20,10,30,10" FontSize="Medium"/>
+            <Label x:Name="txtBatteryState" Padding="20,10,30,10" FontSize="Medium" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
